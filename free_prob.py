@@ -1,5 +1,6 @@
 import numpy as np
 from scipy.linalg import eigh
+import config
 
 def sample_covariance(returns):
     """Return sample covariance matrix (n x n) from log returns."""
